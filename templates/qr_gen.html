@@ -1,0 +1,73 @@
+{% include 'base.html' %}
+    <title>QR Code Generator</title>
+</head>
+<body>
+    <div class="hero-section">
+        <div class="card">
+            <img src="{{ url_for('static', filename='qrcode.png') }}" alt="qr code">
+            <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+            
+          
+      <!-- Calculator UI -->
+        </div>
+      </div>
+      <div class="about" id="about">
+        <p>The generate_qr_code function takes the data you want to encode (e.g., a URL) and an optional output path for the generated QR code image. It uses the qrcode library to generate the QR code and saves it as a PNG file.
+            The display_qr_code function takes the path to the generated QR code image and uses the Pillow library to open and display the image.
+            Make sure to replace the data_to_encode variable with the actual data you want to encode in the QR code.
+            
+            Note: Depending on your operating system and Python environment, the img.show() method may not work as expected. If that's the case, you might need to use a different approach to display the image, such as opening it with the default image viewer or a specific application.</p>
+      </div>
+          
+      <div class="contact" id="contact">
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Password</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="form-group col-md-2">
+                <label for="inputZip">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+</div>
+    
+
+</body>
+</html>
