@@ -22,20 +22,8 @@
     </div>
 
     </div>
-    <div class="about" id="about">
-        <h1>About Us</h1>
-        <p>The generate_qr_code function takes the data you want to encode (e.g., a URL) and an optional output path for
-            the generated QR code image. It uses the qrcode library to generate the QR code and saves it as a PNG file.
-            The display_qr_code function takes the path to the generated QR code image and uses the Pillow library to
-            open and display the image.
-            Make sure to replace the data_to_encode variable with the actual data you want to encode in the QR code.
 
-            Note: Depending on your operating system and Python environment, the img.show() method may not work as
-            expected. If that's the case, you might need to use a different approach to display the image, such as
-            opening it with the default image viewer or a specific application.</p>
-    </div>
-    </div>
-
+        {% include 'about.html' %}
 
     <div class="contact-us" id="contact">
 
