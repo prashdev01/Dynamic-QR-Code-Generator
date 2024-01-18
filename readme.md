@@ -1,4 +1,3 @@
-```markdown
 # Dynamic QR Code Generator
 
 ## Overview
