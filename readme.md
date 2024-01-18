@@ -79,6 +79,6 @@ The application stores contact form submissions in a MongoDB Atlas database. Ens
 
 ## License
 
-This project is licensed under the MIT .
+This project is licensed under the MIT https://github.com/prashdev01/Dynamic-QR-Code-Generator/blob/main/LICENSE.
 
 ```
