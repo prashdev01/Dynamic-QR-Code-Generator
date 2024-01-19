@@ -42,7 +42,7 @@ This project is a simple web application built with Flask that allows users to g
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/dynamic-qr-code-generator.git
+   git clone https://github.com/prashdev0/dynamic-qr-code-generator.git
    ```
 
 2. Install dependencies:
