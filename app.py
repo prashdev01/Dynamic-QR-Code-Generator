@@ -1,8 +1,5 @@
 from flask import Flask,render_template ,request ,send_file 
 import qrcode as qr
-from flask import Flask, render_template, request
-from flask_pymongo import pymongo
-from urllib.parse import quote_plus
 import pymongo
 
 app = Flask(__name__)
